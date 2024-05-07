@@ -1,0 +1,52 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+    <style>
+        body{
+            /* background-color: black;
+            color: white; */
+            background-image: url("{% static 'image/a.jpg' %}");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            text-align: center;
+        }
+
+        h3{
+            /* margin-top: 150px; */
+            font-size: 45px;
+        }
+
+        h4{
+            font-size: 35px;
+        }
+
+        h2{
+            font-size: 50px;
+        }
+
+        input{
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            padding: 12px 26px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <p>I love you my queen</p> -->
+    <h2>Welcome</h2>
+    <h4>To  Our</h4>
+    <h3>House Price Prediction Site</h3>
+
+    <form action="predict/">
+        <input type="submit" value="START">
+    </form>
+</body>
+</html>
